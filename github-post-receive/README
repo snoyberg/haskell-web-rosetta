@@ -1,0 +1,5 @@
+A github post receive handler done in several frameworks a few weeks ago
+(http://help.github.com/post-receive-hooks/).
+
+May need updating; one of the original requirements was full control over
+the port and the command-line options, which at the time complicated snap.hs.
