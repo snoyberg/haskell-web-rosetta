@@ -24,4 +24,4 @@ app _ = return $ responseLBS
     "Hello World"
 
 -- main is simply going to pass our application to Warp
-main = run 3000 app
+main = run 8000 app

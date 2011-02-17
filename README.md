@@ -12,7 +12,7 @@ hello-world/yesod.hs will be Yesod's Hello World.
 
 In general, favor comprehension over terseness: we're not playing golf here.
 And the more comments, the better. Whenever possible, each sample should be a
-stand-alone file which launches a web server on port 3000.
+stand-alone file which launches a web server on port 8000.
 
 For now, don't bother with cabal files, though if there are uncommon
 dependencies, mention the package they come from.

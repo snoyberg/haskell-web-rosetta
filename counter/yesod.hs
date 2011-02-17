@@ -18,4 +18,4 @@ getRootR = do
     current <- liftIO $ atomicModifyIORef inum (\i -> (i + 1, i + 1))
     defaultLayout [$hamlet|<p>You are visitor number #{show current}|]
 
-main = newIORef 0 >>= warpDebug 3000 . Counter
+main = newIORef 0 >>= warpDebug 8000 . Counter

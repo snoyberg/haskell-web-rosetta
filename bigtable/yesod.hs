@@ -22,4 +22,4 @@ getRootR = defaultLayout [$hamlet|
     rows = [1..10]
     cols = [1..10]
 
-main = warpDebug 3000 BigTable
+main = warpDebug 8000 BigTable

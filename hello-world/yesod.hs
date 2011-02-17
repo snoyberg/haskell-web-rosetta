@@ -41,4 +41,4 @@ getRootR = defaultLayout [$hamlet|Hello World|]
 -- And finally run the whole thing. Yesod is built on top of WAI, so any WAI
 -- handler will work, such as FastCGI or devel-server. For now, we'll use Warp
 -- in debug mode.
-main = warpDebug 3000 Hello
+main = warpDebug 8000 Hello

@@ -32,4 +32,4 @@ getFibR num
 fib i = fibs !! (i - 1)
 fibs = 1 : 1 : zipWith (+) fibs (tail fibs)
 
-main = warpDebug 3000 Fib
+main = warpDebug 8000 Fib
