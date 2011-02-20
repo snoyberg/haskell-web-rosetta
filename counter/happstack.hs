@@ -6,7 +6,8 @@ import Happstack.Server
 
 counter :: IORef Int -> ServerPart String
 counter ctr =
-    do i <- liftIO $ atomicModifyIORef ctr (\i -> (i + 1, i + 1))
+    do methodM GET -- only respond if it is a GET to /
+       i <- liftIO $ atomicModifyIORef ctr (\i -> (i + 1, i + 1))
        ok $ "You are visitor number " ++ show i
 
 main = 
