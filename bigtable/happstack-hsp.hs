@@ -1,3 +1,4 @@
+-- | NOTE: requires optional package happstack-hsp >= 6.0.1
 {-# LANGUAGE ScopedTypeVariables #-}
 {-# OPTIONS_GHC -F -pgmFtrhsx #-}
 module Main where
